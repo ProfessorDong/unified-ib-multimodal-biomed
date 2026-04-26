@@ -1,0 +1,228 @@
+{
+  "I_full": 0.9173532605945396,
+  "info_losses": {
+    "mRNA": 0,
+    "Methylation": 0.14850544929504395,
+    "miRNA": 0.21316099166870117,
+    "mRNA+Methylation": 0,
+    "mRNA+miRNA": 0,
+    "Methylation+miRNA": 0.09708917140960693,
+    "All": 0.0
+  },
+  "consistency_model": [
+    {
+      "subset": "mRNA",
+      "mask": [
+        true,
+        false,
+        false
+      ],
+      "missing": [
+        "Methylation",
+        "miRNA"
+      ],
+      "I_miss": 0,
+      "auc": 0.7097242056288431,
+      "acc": 0.55893536121673,
+      "pred_entropy": 1.6047738790512085
+    },
+    {
+      "subset": "Methylation",
+      "mask": [
+        false,
+        true,
+        false
+      ],
+      "missing": [
+        "mRNA",
+        "miRNA"
+      ],
+      "I_miss": 0.14850544929504395,
+      "auc": 0.6804502171023484,
+      "acc": 0.5019011406844106,
+      "pred_entropy": 1.6052608489990234
+    },
+    {
+      "subset": "miRNA",
+      "mask": [
+        false,
+        false,
+        true
+      ],
+      "missing": [
+        "mRNA",
+        "Methylation"
+      ],
+      "I_miss": 0.21316099166870117,
+      "auc": 0.7170885771113253,
+      "acc": 0.49809885931558934,
+      "pred_entropy": 1.6054351329803467
+    },
+    {
+      "subset": "mRNA+Methylation",
+      "mask": [
+        true,
+        true,
+        false
+      ],
+      "missing": [
+        "miRNA"
+      ],
+      "I_miss": 0,
+      "auc": 0.7215457178985716,
+      "acc": 0.6273764258555133,
+      "pred_entropy": 1.6015806198120117
+    },
+    {
+      "subset": "mRNA+miRNA",
+      "mask": [
+        true,
+        false,
+        true
+      ],
+      "missing": [
+        "Methylation"
+      ],
+      "I_miss": 0,
+      "auc": 0.7293812469062371,
+      "acc": 0.623574144486692,
+      "pred_entropy": 1.6020166873931885
+    },
+    {
+      "subset": "Methylation+miRNA",
+      "mask": [
+        false,
+        true,
+        true
+      ],
+      "missing": [
+        "mRNA"
+      ],
+      "I_miss": 0.09708917140960693,
+      "auc": 0.7298296192563547,
+      "acc": 0.6159695817490495,
+      "pred_entropy": 1.6028469800949097
+    },
+    {
+      "subset": "All",
+      "mask": [
+        true,
+        true,
+        true
+      ],
+      "missing": [],
+      "I_miss": 0.0,
+      "auc": 0.7427021927981659,
+      "acc": 0.6311787072243346,
+      "pred_entropy": 1.5977851152420044
+    }
+  ],
+  "standard_model": [
+    {
+      "subset": "mRNA",
+      "mask": [
+        true,
+        false,
+        false
+      ],
+      "missing": [
+        "Methylation",
+        "miRNA"
+      ],
+      "I_miss": 0,
+      "auc": 0.9650880863731753,
+      "acc": 0.8365019011406845,
+      "pred_entropy": 0.3824010491371155
+    },
+    {
+      "subset": "Methylation",
+      "mask": [
+        false,
+        true,
+        false
+      ],
+      "missing": [
+        "mRNA",
+        "miRNA"
+      ],
+      "I_miss": 0.14850544929504395,
+      "auc": 0.7912620102833774,
+      "acc": 0.532319391634981,
+      "pred_entropy": 1.1442131996154785
+    },
+    {
+      "subset": "miRNA",
+      "mask": [
+        false,
+        false,
+        true
+      ],
+      "missing": [
+        "mRNA",
+        "Methylation"
+      ],
+      "I_miss": 0.21316099166870117,
+      "auc": 0.676650468892235,
+      "acc": 0.4372623574144487,
+      "pred_entropy": 0.9568727612495422
+    },
+    {
+      "subset": "mRNA+Methylation",
+      "mask": [
+        true,
+        true,
+        false
+      ],
+      "missing": [
+        "miRNA"
+      ],
+      "I_miss": 0,
+      "auc": 0.9634241584308934,
+      "acc": 0.8288973384030418,
+      "pred_entropy": 0.33898472785949707
+    },
+    {
+      "subset": "mRNA+miRNA",
+      "mask": [
+        true,
+        false,
+        true
+      ],
+      "missing": [
+        "Methylation"
+      ],
+      "I_miss": 0,
+      "auc": 0.9367572491414103,
+      "acc": 0.779467680608365,
+      "pred_entropy": 0.17741654813289642
+    },
+    {
+      "subset": "Methylation+miRNA",
+      "mask": [
+        false,
+        true,
+        true
+      ],
+      "missing": [
+        "mRNA"
+      ],
+      "I_miss": 0.09708917140960693,
+      "auc": 0.7230057870128623,
+      "acc": 0.5855513307984791,
+      "pred_entropy": 0.8155696392059326
+    },
+    {
+      "subset": "All",
+      "mask": [
+        true,
+        true,
+        true
+      ],
+      "missing": [],
+      "I_miss": 0.0,
+      "auc": 0.9425012938765269,
+      "acc": 0.7870722433460076,
+      "pred_entropy": 0.14768625795841217
+    }
+  ]
+}

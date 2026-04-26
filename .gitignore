@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.venv/
+venv/
+env/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data — never commit raw or preprocessed datasets
+experiments/data/
+data/
+*.h5
+*.hdf5
+*.parquet
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Local run outputs (keep only curated results/*.json)
+experiments/results/*.tmp
+experiments/results/*.log
+experiments/runs/
+experiments/logs/
+experiments/checkpoints/
+wandb/
+mlruns/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Misc
+.env
+.env.local

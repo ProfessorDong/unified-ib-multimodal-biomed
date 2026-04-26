@@ -1,0 +1,213 @@
+{
+  "experiments": [
+    {
+      "type": "standard",
+      "lambda": 0.0,
+      "modality_dropout": 0.0,
+      "full_auc_mean": 0.9498279209208288,
+      "full_auc_std": 0.0009136615492680352,
+      "balance_mean": 0.28395446902148674,
+      "balance_std": 0.01229906478610087,
+      "gaps_mean": {
+        "mRNA": 0.17860153657120384,
+        "Methylation": 0.018570307152838545,
+        "miRNA": 0.0
+      },
+      "gaps_std": {
+        "mRNA": 0.0026704319417574585,
+        "Methylation": 0.001127191741401292,
+        "miRNA": 0.0
+      }
+    },
+    {
+      "type": "standard",
+      "lambda": 0.001,
+      "modality_dropout": 0.0,
+      "full_auc_mean": 0.9196762728283007,
+      "full_auc_std": 0.002895082963479587,
+      "balance_mean": 0.33500209162795924,
+      "balance_std": 0.020560946026370066,
+      "gaps_mean": {
+        "mRNA": 0.20193557280652832,
+        "Methylation": 0.027840758303642188,
+        "miRNA": 0.0
+      },
+      "gaps_std": {
+        "mRNA": 0.002550351681346416,
+        "Methylation": 0.003412070479996765,
+        "miRNA": 0.0
+      }
+    },
+    {
+      "type": "standard",
+      "lambda": 0.005,
+      "modality_dropout": 0.0,
+      "full_auc_mean": 0.926599276460081,
+      "full_auc_std": 0.004829027328859781,
+      "balance_mean": 0.2566048588005818,
+      "balance_std": 0.02619836928817741,
+      "gaps_mean": {
+        "mRNA": 0.20556119521555768,
+        "Methylation": 0.018377825893110877,
+        "miRNA": 0.0
+      },
+      "gaps_std": {
+        "mRNA": 0.004336917787931323,
+        "Methylation": 0.0031753507767705025,
+        "miRNA": 0.0
+      }
+    },
+    {
+      "type": "standard",
+      "lambda": 0.01,
+      "modality_dropout": 0.0,
+      "full_auc_mean": 0.9317055901307114,
+      "full_auc_std": 0.0060252264541844685,
+      "balance_mean": 0.2502426805415609,
+      "balance_std": 0.023104272713368283,
+      "gaps_mean": {
+        "mRNA": 0.20303916742349684,
+        "Methylation": 0.017377830073295113,
+        "miRNA": 0.0
+      },
+      "gaps_std": {
+        "mRNA": 0.0018889471311309804,
+        "Methylation": 0.0024101495888470188,
+        "miRNA": 0.0
+      }
+    },
+    {
+      "type": "standard",
+      "lambda": 0.05,
+      "modality_dropout": 0.0,
+      "full_auc_mean": 0.9304359901645674,
+      "full_auc_std": 0.0018878202999682123,
+      "balance_mean": 0.14402363955615152,
+      "balance_std": 0.04619884195419477,
+      "gaps_mean": {
+        "mRNA": 0.20943042389416525,
+        "Methylation": 0.008211869910997352,
+        "miRNA": 0.0
+      },
+      "gaps_std": {
+        "mRNA": 0.008200640377722133,
+        "Methylation": 0.0032939236117444474,
+        "miRNA": 0.0
+      }
+    },
+    {
+      "type": "standard",
+      "lambda": 0.1,
+      "modality_dropout": 0.0,
+      "full_auc_mean": 0.9256738800644037,
+      "full_auc_std": 0.0010820893101491408,
+      "balance_mean": 0.13590081007782703,
+      "balance_std": 0.03393852771994225,
+      "gaps_mean": {
+        "mRNA": 0.19416549230186772,
+        "Methylation": 0.006993922192499354,
+        "miRNA": 0.0
+      },
+      "gaps_std": {
+        "mRNA": 0.006136371539364141,
+        "Methylation": 0.0022401329699571738,
+        "miRNA": 0.0
+      }
+    },
+    {
+      "type": "modality_dropout",
+      "lambda": 0.01,
+      "modality_dropout": 0.0,
+      "full_auc_mean": 0.9317055901307114,
+      "full_auc_std": 0.0060252264541844685,
+      "balance_mean": 0.2502426805415609,
+      "balance_std": 0.023104272713368283,
+      "gaps_mean": {
+        "mRNA": 0.20303916742349684,
+        "Methylation": 0.017377830073295113,
+        "miRNA": 0.0
+      },
+      "gaps_std": {
+        "mRNA": 0.0018889471311309804,
+        "Methylation": 0.0024101495888470188,
+        "miRNA": 0.0
+      }
+    },
+    {
+      "type": "modality_dropout",
+      "lambda": 0.01,
+      "modality_dropout": 0.1,
+      "full_auc_mean": 0.934844680437859,
+      "full_auc_std": 0.0027541708611569615,
+      "balance_mean": 0.5395636422904105,
+      "balance_std": 0.027291083702728466,
+      "gaps_mean": {
+        "mRNA": 0.0994837281799122,
+        "Methylation": 0.039047868018558564,
+        "miRNA": 0.0
+      },
+      "gaps_std": {
+        "mRNA": 0.0073060603666536645,
+        "Methylation": 0.003666127595558362,
+        "miRNA": 0.0
+      }
+    },
+    {
+      "type": "modality_dropout",
+      "lambda": 0.01,
+      "modality_dropout": 0.2,
+      "full_auc_mean": 0.9394858832344513,
+      "full_auc_std": 0.0046535675447781175,
+      "balance_mean": 0.5885376307267952,
+      "balance_std": 0.025770947490015357,
+      "gaps_mean": {
+        "mRNA": 0.07420045950052274,
+        "Methylation": 0.040892844617508715,
+        "miRNA": 0.0
+      },
+      "gaps_std": {
+        "mRNA": 0.01301336089586263,
+        "Methylation": 0.0024272933713820506,
+        "miRNA": 0.0
+      }
+    },
+    {
+      "type": "modality_dropout",
+      "lambda": 0.01,
+      "modality_dropout": 0.3,
+      "full_auc_mean": 0.9450920006381814,
+      "full_auc_std": 0.0021901200677372544,
+      "balance_mean": 0.6221236500776993,
+      "balance_std": 0.00654408693557869,
+      "gaps_mean": {
+        "mRNA": 0.05059780617386892,
+        "Methylation": 0.040009016087171334,
+        "miRNA": 0.0
+      },
+      "gaps_std": {
+        "mRNA": 0.004870360203367323,
+        "Methylation": 0.0023777958156384065,
+        "miRNA": 0.0
+      }
+    },
+    {
+      "type": "modality_dropout",
+      "lambda": 0.01,
+      "modality_dropout": 0.4,
+      "full_auc_mean": 0.9483981051033501,
+      "full_auc_std": 0.0019513303418360133,
+      "balance_mean": 0.6255546075688251,
+      "balance_std": 0.0064099173410805425,
+      "gaps_mean": {
+        "mRNA": 0.0371712281039824,
+        "Methylation": 0.034761456046570216,
+        "miRNA": 0.0
+      },
+      "gaps_std": {
+        "mRNA": 0.0036956319591131765,
+        "Methylation": 0.008730817020847168,
+        "miRNA": 0.0
+      }
+    }
+  ]
+}

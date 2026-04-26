@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper (preferred) and, if helpful, this software release."
+title: "Unified Information Bottleneck Framework for Multimodal Biomedical ML — code and results"
+authors:
+  - family-names: Dong
+    given-names: Liang
+    orcid: "https://orcid.org/0000-0002-8585-1087"
+    affiliation: "Baylor University; UT Southwestern Medical Center"
+type: software
+license: MIT
+repository-code: "https://github.com/ProfessorDong/unified-ib-multimodal-biomed"
+version: "1.0.0"
+date-released: "2026-04-26"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Dong
+      given-names: Liang
+      orcid: "https://orcid.org/0000-0002-8585-1087"
+  title: "A Unified Information Bottleneck Framework for Multimodal Biomedical Machine Learning"
+  journal: "Entropy"
+  year: 2026
+  volume: 28
+  issue: 4
+  start: 445
+  doi: "10.3390/e28040445"
+  url: "https://www.mdpi.com/1099-4300/28/4/445"
+  issn: "1099-4300"

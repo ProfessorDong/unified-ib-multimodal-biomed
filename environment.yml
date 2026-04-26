@@ -1,0 +1,18 @@
+name: nih_research
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - numpy=2.3
+  - pandas=2.3
+  - scipy=1.16
+  - scikit-learn=1.8
+  - tqdm=4.67
+  - pytorch=2.10
+  - pytorch-cuda=12.6
+  - pip:
+    - # any pip-only extras go here
