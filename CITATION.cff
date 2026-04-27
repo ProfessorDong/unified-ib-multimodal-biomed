@@ -13,8 +13,11 @@ version: "1.0.1"
 date-released: "2026-04-26"
 identifiers:
   - type: doi
+    value: "10.5281/zenodo.19802841"
+    description: "Zenodo concept DOI (resolves to the latest archived release)"
+  - type: doi
     value: "10.5281/zenodo.19802842"
-    description: "Zenodo archive of release v1.0.1"
+    description: "Zenodo version DOI for release v1.0.1"
 preferred-citation:
   type: article
   authors:
