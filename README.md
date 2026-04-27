@@ -4,9 +4,9 @@ Code and aggregate results accompanying:
 
 > Dong, L. **A Unified Information Bottleneck Framework for Multimodal Biomedical Machine Learning.** *Entropy* **2026**, *28*(4), 445. [https://doi.org/10.3390/e28040445](https://doi.org/10.3390/e28040445)
 
-[![DOI](https://img.shields.io/badge/DOI-10.3390%2Fe28040445-blue)](https://doi.org/10.3390/e28040445)
+[![Paper DOI](https://img.shields.io/badge/Paper%20DOI-10.3390%2Fe28040445-blue)](https://doi.org/10.3390/e28040445)
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19802842.svg)](https://doi.org/10.5281/zenodo.19802842)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-<!-- Add Zenodo DOI badge after first GitHub release is archived to Zenodo. -->
 
 The paper develops an information-theoretic framework for multimodal biomedical machine learning, formulating multimodal representation learning through the information bottleneck principle and providing tools for: mutual-information decomposition across modalities, redundancy/synergy quantification, fusion-collapse diagnostics, missing-modality robustness as information consistency, longitudinal modeling via transfer entropy, and uncertainty / calibration / OOD detection. Empirical case studies span three datasets (TCGA-BRCA, TCGA-GBMLGG, OASIS-2).
 
@@ -89,7 +89,19 @@ Preferred (paper):
 }
 ```
 
-Software release: see `CITATION.cff` (a Zenodo DOI will be added after the first GitHub release is archived to Zenodo).
+Software release (Zenodo archive of v1.0.1):
+
+```bibtex
+@software{dong_2026_zenodo_19802842,
+  author    = {Dong, Liang},
+  title     = {Unified Information Bottleneck Framework for Multimodal Biomedical ML — code and results},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {v1.0.1},
+  doi       = {10.5281/zenodo.19802842},
+  url       = {https://doi.org/10.5281/zenodo.19802842}
+}
+```
 
 ---
 

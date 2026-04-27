@@ -9,8 +9,12 @@ authors:
 type: software
 license: MIT
 repository-code: "https://github.com/ProfessorDong/unified-ib-multimodal-biomed"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-04-26"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.19802842"
+    description: "Zenodo archive of release v1.0.1"
 preferred-citation:
   type: article
   authors:
